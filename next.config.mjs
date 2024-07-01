@@ -2,7 +2,8 @@ import nextra from "nextra"
 
 const withNextra = nextra({
 	theme: 'nextra-theme-docs',
-	themeConfig: './src/theme.config.tsx'
+	themeConfig: './src/theme.config.tsx',
+	defaultShowCopyCode: true,
 })
 
 /** @type {import('next').NextConfig} */
