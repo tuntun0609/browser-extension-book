@@ -3,8 +3,8 @@
 		"display": "hidden",
 		"type": "page"
 	},
-	"docs": {
-		"title": "文档",
+	"book": {
+		"title": "插件开发指南",
 		"type": "page"
 	}
 }

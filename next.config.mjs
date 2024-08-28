@@ -1,14 +1,14 @@
-import nextra from "nextra"
+import nextra from 'nextra'
 
 const withNextra = nextra({
-	theme: 'nextra-theme-docs',
-	themeConfig: './src/theme.config.tsx',
-	defaultShowCopyCode: true,
+  theme: 'nextra-theme-docs',
+  themeConfig: './src/theme.config.tsx',
+  defaultShowCopyCode: true,
 })
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-	reactStrictMode: false,
-};
+  reactStrictMode: false,
+}
 
-export default withNextra(nextConfig);
+export default withNextra(nextConfig)

@@ -1,0 +1,8 @@
+{
+	"index": "前言",
+	"-- 开发准备": {
+		"type": "separator",
+		"title": "开发准备"
+	},
+	"introduce": "理解插件"
+}
